@@ -1,0 +1,33 @@
+%Costo nuclear
+cN = 20;
+
+%Costo hidroelectrica
+cH = 1;
+
+%Costo termica
+cT= 20;
+
+%Capacidad de produccion nuclear
+cpN = 1000;
+
+%Capacidad de produccion hidroelectrica
+cpH = 300;
+
+%Capacidad de produccion termica
+cpT = 500;
+
+%numero dias
+n = 4;
+
+%Numero clientes
+s = 2;
+
+%Demanda diaria
+D=[|150,150,150,150|150,150,150,150|];
+
+%Regimen de consumo
+rcH=0.8;
+
+%Dias maximos de regimen alto;
+drA=2;
+
